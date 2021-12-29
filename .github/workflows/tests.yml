@@ -47,6 +47,9 @@ jobs:
       - name: Prepare the environment
         run: cp .env.example .env
 
+      - name: generate keys
+        run: php artisan key:generate
+
       - name: Install composer dependencies
         run: composer install --prefer-dist --no-interaction --no-progress --ignore-platform-reqs --optimize-autoloader
 
