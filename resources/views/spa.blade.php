@@ -17,6 +17,7 @@ $appCss = mix('dist/css/app.css');
   <title>{{ config('app.name') }}</title>
 
   <link rel="stylesheet" href="{{ (str_starts_with($appCss, '//') ? 'http:' : '').$appCss }}">
+  <link rel="icon" type="image/png" href="{{config('url')}}/favicon.png" sizes="32x32" />
 </head>
 <body>
   <div id="app"></div>
