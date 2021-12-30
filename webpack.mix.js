@@ -13,8 +13,8 @@ mix
 
 if (mix.inProduction()) {
     mix
-        .extract()
-        .version()
+        // .extract()
+        // .version()
         .versionHash()
 } else {
     mix.sourceMaps()
