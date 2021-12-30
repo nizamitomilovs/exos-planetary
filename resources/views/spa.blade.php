@@ -14,7 +14,7 @@ $appCss = mix('dist/css/app.css');
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{{ config('app.name') }}</title>
+  <title>{{ config('app.title') }}</title>
 
   <link rel="stylesheet" href="{{ (str_starts_with($appCss, '//') ? 'http:' : '').$appCss }}">
   <link rel="icon" type="image/png" href="{{config('url')}}/favicon.png" sizes="32x32" />

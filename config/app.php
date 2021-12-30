@@ -3,7 +3,8 @@
 declare(strict_types=1);
 
 return [
-    'name'            => env('APP_NAME', 'Laravel'),
+    'name'            => env('APP_NAME', 'Exos Planetary'),
+    'title'           => env('APP_TITLE', 'EOS'),
     'env'             => env('APP_ENV', 'production'),
     'debug'           => (bool) env('APP_DEBUG', false),
     'url'             => env('APP_URL', 'http://localhost'),
@@ -18,7 +19,6 @@ return [
     'key'             => env('APP_KEY'),
     'cipher'          => 'AES-256-CBC',
     'providers'       => [
-
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
