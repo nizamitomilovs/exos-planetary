@@ -17,7 +17,7 @@
     <title>{{ config('app.title') }}</title>
 
     <link rel="stylesheet" href="{{ (str_starts_with($appCss, '//') ? 'http:' : '').$appCss }}">
-    <link rel="icon" type="image/png" href="{{config('url')}}/favicon.png" sizes="32x32"/>
+{{--    <link rel="icon" type="image/png" href="{{config('url')}}/favicon.png" sizes="32x32"/>--}}
 </head>
 <body>
 <div id="app"></div>
